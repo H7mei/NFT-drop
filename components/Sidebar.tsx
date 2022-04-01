@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocketchat, faBitcoin } from '@fortawesome/free-brands-svg-icons'
 import { faSortAlphaDown, faEgg } from '@fortawesome/free-solid-svg-icons'
