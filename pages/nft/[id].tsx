@@ -33,14 +33,16 @@ function NFTDropPage({ collection }: Props) {
           <div className="rounded-xl rounded-b-none bg-[#C22626] p-1 pb-0">
             <img
               className="w-44 rounded-xl rounded-b-none object-center lg:h-72 lg:w-72"
-              src="https://i.postimg.cc/Y956fYg3/pic3.jpg"
+              src={urlFor(collection.priviewImage).url()}
               alt=""
             />
           </div>
           <div className="space-y-2 rounded-xl border-4 border-[#C22626] bg-[#FDFFFC] p-3 text-center lg:rounded-t-none">
-            <h1 className="text-4xl font-bold text-[#161925]">Wolf</h1>
+            <h1 className="text-4xl font-bold text-[#161925]">
+              {collection.title}
+            </h1>
             <h2 className="text-xl text-[#161925d8]">
-              Colllection more Wolf anytime
+              {collection.description}
             </h2>
           </div>
         </div>
@@ -71,7 +73,10 @@ function NFTDropPage({ collection }: Props) {
             </p>
           )}
           <div className="text-center">
-            <Marquee />
+            <Marquee
+              img={urlFor(collection.mainImage).url()}
+              name={collection.nftCollectionName}
+            />
             <div className="py-10 lg:py-0">
               <h1 className="text-3xl font-bold lg:text-5xl lg:font-extrabold">
                 {collection.title}
