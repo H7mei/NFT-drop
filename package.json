@@ -39,7 +39,15 @@
   "name": "nft-drop",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/H7mei/NFT-drop.git",
-  "author": "<hanafichoirulloh1@gmail.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H7mei/NFT-drop.git"
+  },
+  "author": " <hanafichoirulloh1@gmail.com>",
+  "license": "MIT",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "bugs": {
+    "url": "https://github.com/H7mei/NFT-drop/issues"
+  },
+  "homepage": "https://github.com/H7mei/NFT-drop#readme"
 }
