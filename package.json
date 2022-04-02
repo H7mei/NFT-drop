@@ -35,5 +35,11 @@
     "prettier-plugin-tailwindcss": "^0.1.1",
     "tailwindcss": "^3.0.7",
     "typescript": "4.5.4"
-  }
+  },
+  "name": "nft-drop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/H7mei/NFT-drop.git",
+  "author": "<hanafichoirulloh1@gmail.com>",
+  "license": "MIT"
 }
